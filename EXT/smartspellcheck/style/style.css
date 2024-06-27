@@ -1,0 +1,26 @@
+.bloco {
+    width: 80%;
+    padding: 10px;
+    background-color:#ffcbf3;
+}
+
+.hover:hover {
+    background-color: #ffcbf3;
+    cursor:pointer;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ico {
+    width: 25px;
+    height: 25px;
+}

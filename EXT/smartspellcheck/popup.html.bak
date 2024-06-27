@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
+    <script src="popup.js"></script>
+    <script src="dist/jsOtp.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+
+</head>
+<body style="width:370px; height:150px; font-size:70%; overflow-x:no-display" class="bg-dark text-white">
+
+
+    <div class="card border-0 p-2 bg-dark bg-gradient text-white">
+        <div class="card-header bg-dark bg-gradient text-white">
+            <img src="images/logo128.png" class="ico" />
+            <strong>Smart SpellCheck - Teleperformance</strong></div>
+        <div class="card-body">
+            <button id="iniciar" class="btn btn-primary btn-sm">Iniciar</button>
+            <button id="ignorar" class="btn btn-primary btn-sm">Ignorar</button>
+        </div>
+    </div>
+
+    <div id="footer" class="container p-1">
+        <footer class="text-center text-lg-start bg-dark text-muted">
+            <div class="text-center p-0 bg-dark text-warning">
+                © 2023 Copyright: Automation Team | Teleperformance Brazil | V 1.8
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/jquery-3.6.1.min.js"></script>
+</body>
+
+
+</html>

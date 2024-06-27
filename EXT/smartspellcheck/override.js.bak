@@ -1,0 +1,24 @@
+var storage_available = true;
+var title = document.title;
+var processingConsola = false;
+var listaTemporaria = [[]];
+
+console.log('CAPTURANDO TITULO: ' + title);
+if (title.includes('Agent Console')) {
+    setTimeout(executeScript, 2000);
+} else {
+    console.log('NAO ESTA NO AGENT CONSOLE')
+}
+
+//Starts the instance
+function executeScript() {
+    console.clear();
+    Liberar();
+}
+
+//Prepares data and elements to be monitored and starts the observer
+function Liberar() {
+		console.log("***** ERROS IGNORADOS **** ");
+		document.querySelector('[data-shortcut-id="publisher_primary_action_button"]').removeAttribute("style");
+}
+
